@@ -1,19 +1,17 @@
 {
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "inquire": "^0.4.8",
-    "inquirer": "^9.2.16",
-    "qr-image": "^3.2.0"
-  },
-  "name": "2.4-qr-code-project",
+  "name": "3.5-joke-maker-project",
   "version": "1.0.0",
-  "type": "module",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {}
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
 }
